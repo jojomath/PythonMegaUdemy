@@ -7,3 +7,7 @@ print(builtIns)
 listMethods = dir(list)
 print("====== List =====")
 print(listMethods)
+
+# if you want to know what a particukar method does then use help, example
+help(list.insert)
+help(list.pop)
