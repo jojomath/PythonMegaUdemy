@@ -36,4 +36,13 @@ print(myTuple.count(2)) # counts how many times 2 is repeating in the tuple
 print(myTuple.index(3)) # returns the first occurance of 3 in the tuple
 
 
+# dict with tuple and list ??
+dict_hybrid = {
+        "Morning": (1,2,3),
+        "Noon": [1,2,3],
+        "Evening": "Go to Sleep"
+        }
+
+print(dict_hybrid)
+
 
