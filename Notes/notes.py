@@ -26,5 +26,8 @@ print(dict_grades.items())
 print(dict_grades.keys())
 for key in dict_grades:
     print( ">>",key,"got",dict_grades[key],"point out of 100")
+    
+sumOfGrades = sum(dict_grades.values())
+print("Average grade =", sumOfGrades/len(dict_grades))
 
 
