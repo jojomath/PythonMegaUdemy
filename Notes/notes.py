@@ -30,4 +30,10 @@ for key in dict_grades:
 sumOfGrades = sum(dict_grades.values())
 print("Average grade =", sumOfGrades/len(dict_grades))
 
+#Tuples : are immutable while list are mutable
+myTuple =  (1,2,2,2,3)
+print(myTuple.count(2)) # counts how many times 2 is repeating in the tuple
+print(myTuple.index(3)) # returns the first occurance of 3 in the tuple
+
+
 
