@@ -18,3 +18,13 @@ sumOfGrades = sum(grades)
 length = len(grades)
 mean = sumOfGrades/length
 print("Mean grade = ", mean)
+
+# dictionary
+dict_grades = {"Mary":90, "Little":95, "Lamb":100}
+print(dict_grades)
+print(dict_grades.items())
+print(dict_grades.keys())
+for key in dict_grades:
+    print( ">>",key,"got",dict_grades[key],"point out of 100")
+
+
