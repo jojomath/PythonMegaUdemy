@@ -22,3 +22,5 @@ print( "Mean:", mean( list1 ) )
 print( "Builtin:\t", type( sum ) )
 print( "Newly defined:\t", type( mean ) )
 print( "List:\t\t", type( list1 ) )
+
+# If nothing is returned by a function then None is returned by default
