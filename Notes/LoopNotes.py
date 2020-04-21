@@ -13,7 +13,7 @@ for temp in mon_temp:
 for letter in 'Hello':
     print( letter.upper() )
     
-my_dict = {"Mary": 25, "Joan": 28, "Barry": 10 }
+my_dict = {"Mary": "+25", "Joan": "+28", "Barry": "+10" }
 
 for items in my_dict.items():
     print( items )
@@ -23,3 +23,16 @@ for key in my_dict.keys():
     
 for value in my_dict.values():
     print( value )
+    
+for value in my_dict.values():
+    print( value.replace("+", "00"))
+    
+name = ''
+while name != "Joseph":
+    name = input("Enter Name:" )
+    
+while True:
+    name = input("Enter Name:" )
+    if name == "Joseph":
+        break
+    
