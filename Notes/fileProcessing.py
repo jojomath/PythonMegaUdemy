@@ -20,6 +20,10 @@ def fileReadOper2( fileName ):
 def fileWriteOper( fileName, mode ):
     with open(fileName, mode) as file:
         file.write("\nApple")    
+        file.seek(0)
+        content = file.read()
         
+    print(content)
         
-fileWriteOper("Vegetable.txt", mode='a' )
+fileWriteOper("Vegetable.txt", mode='a+' )
+
