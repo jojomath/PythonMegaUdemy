@@ -17,9 +17,9 @@ def fileReadOper2( fileName ):
         content = file.read()    
     return content
 
-def fileWriteOper( fileName, mode='a' ):
-    with open(fileName) as file:
-        file.write("Apple")    
+def fileWriteOper( fileName, mode ):
+    with open(fileName, mode) as file:
+        file.write("\nApple")    
         
         
-fileWriteOper("Vegetable.txt" )
+fileWriteOper("Vegetable.txt", mode='a' )
