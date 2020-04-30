@@ -29,4 +29,33 @@ git config --global user.email "jdoe@email.com"
 > git commit -m "Message"
 
 
+# SSH Keys for authentication
+- Private key stays on laocal computer
+- Public key goes to github
 
+
+# Generate key pair
+> ssh-keygen -t rsa -C "jdoe@email.com" 
+- Go Enter Enter Enter
+- go to .../Users/jdoe/.ssh and copy over id_rsa.pub to github
+
+# To pair your system with github
+> ssh -T git@github.com
+
+
+# Create repo on github
+
+
+# To view what remote repositories are attached to your current repo:
+> git remote -v
+
+
+# The default main remote repo is called the origin. If you don't yet have an origin set, you can set it using:
+> git remote add origin git@github.com:path/to/my-repo.git
+
+
+# Mapping branches example master goes to master
+> git branch --set-upstream-to=origin/master master
+
+# Now we are ready to push
+> git push
