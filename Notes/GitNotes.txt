@@ -1,0 +1,32 @@
+## Git cheat sheet
+
+# Configure Git
+git config --global user.name "John Doe"
+git config --global user.email "jdoe@email.com"
+
+
+# To start a repo
+> mkdir project && cd project
+> git init
+
+# To see all the git commits in the past you can use:
+> git log
+
+# You can view the changes made in a specific commit using:
+> git show <commit_id>
+
+
+# To add to staging area
+> git add fileName
+
+# To add all
+> git add -A
+
+# To see the repo status
+> git status
+
+# Recorded change to repo
+> git commit -m "Message"
+
+
+
